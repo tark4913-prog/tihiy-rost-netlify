@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Понятные инструкции по бережной посадке и уходу за молодыми дубами, кипарисами и лиственницами.">
+<title>Тихий рост — инструкции для саженцев</title>
+<style>
+:root{color-scheme:dark;padding-bottom:env(safe-area-inset-bottom,0px);--bg:#101713;--panel:#19231d;--panel2:#202c24;--text:#f1f3ec;--muted:#b9c4b7;--green:#b7d7a2;--green2:#6d9863;--line:#344438;--gold:#e2c58b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+a{color:var(--green)}
+.wrap{width:min(1120px,92%);margin:auto}
+header{padding:calc(22px + env(safe-area-inset-top,0px)) 0 22px;border-bottom:1px solid var(--line);background:#101713eF;position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.3px}
+.logo-mark{width:36px;height:36px;border-radius:12px;background:var(--green);color:#142018;display:grid;place-items:center;font-size:22px}
+nav{display:flex;gap:20px;flex-wrap:wrap;font-size:14px}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--green)}
+.hero{padding:72px 0 54px;display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}
+.eyebrow{color:var(--green);text-transform:uppercase;letter-spacing:2px;font-weight:700;font-size:12px}
+h1{font-size:clamp(36px,5.5vw,64px);line-height:1.04;letter-spacing:-1.7px;margin:16px 0 22px}
+h1 span{color:var(--green)}
+.lead{font-size:18px;color:var(--muted);max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:750;border:1px solid var(--line);cursor:pointer;font-size:14px}
+.btn.primary{background:var(--green);color:#142018;border-color:var(--green)}
+.btn.secondary{color:var(--text);background:transparent}
+.hero-art{min-height:340px;border:1px solid var(--line);border-radius:28px;background:radial-gradient(ellipse at 50% 30%,#39513a 0%,#202f24 36%,#172119 72%);position:relative;overflow:hidden;display:flex;align-items:end;justify-content:center;padding:25px}
+.hero-art:before{content:"";position:absolute;width:250px;height:250px;border:1px solid #a8c69b55;border-radius:50%;top:35px;left:50%;transform:translateX(-50%)}
+.plant{position:relative;width:200px;height:250px}
+.stem{position:absolute;width:5px;height:220px;background:linear-gradient(#b9d7a4,#765c3e);left:98px;bottom:0;border-radius:10px;transform:rotate(3deg)}
+.leaf{position:absolute;width:88px;height:35px;background:linear-gradient(135deg,#a8ca91,#527e4d);border-radius:100% 0 100% 0;box-shadow:inset 0 0 0 1px #d3e4bd33}
+.l1{left:16px;top:55px;transform:rotate(12deg)}.l2{left:99px;top:82px;transform:scaleX(-1) rotate(12deg)}.l3{left:5px;top:115px;transform:rotate(2deg)}.l4{left:99px;top:145px;transform:scaleX(-1) rotate(5deg)}.l5{left:44px;top:18px;width:70px;height:28px;transform:rotate(-28deg)}
+.art-label{position:absolute;top:22px;left:24px;color:#d5e5cc;font-size:12px;letter-spacing:1.3px;text-transform:uppercase}
+.section{padding:56px 0}
+.section-head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:25px}
+h2{font-size:clamp(27px,3vw,38px);line-height:1.15;margin:0 0 10px;letter-spacing:-.7px}
+.sub{color:var(--muted);max-width:660px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px}
+.card h3{margin:7px 0 8px;font-size:20px}
+.card p{color:var(--muted);margin:0}
+.icon{font-size:26px}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:4px 10px;font-size:12px;color:var(--green);margin:4px 4px 0 0}
+.notice{border-left:3px solid var(--gold);background:#2b281e;padding:16px 18px;border-radius:0 12px 12px 0;color:#e9dfc7;margin-top:18px}
+.guide-layout{display:grid;grid-template-columns:290px 1fr;gap:20px;align-items:start}
+.species-tabs{display:grid;gap:8px}
+.tab{padding:13px 15px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--text);text-align:left;cursor:pointer;font-weight:700}
+.tab.active{background:var(--green);color:#132018;border-color:var(--green)}
+.guide{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:26px}
+.guide h3{font-size:25px;margin:0 0 6px}
+.guide .intro{color:var(--muted);margin-top:0}
+.guide h4{margin:22px 0 7px;color:var(--green);font-size:15px}
+.guide ul{padding-left:20px;margin-top:7px}
+.guide li{margin:6px 0}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;counter-reset:step}
+.step{background:var(--panel2);border-radius:16px;padding:18px;border:1px solid var(--line)}
+.step:before{counter-increment:step;content:"0" counter(step);color:var(--green);font-weight:800;font-size:13px;letter-spacing:1px}
+.step h3{font-size:17px;margin:10px 0 5px}
+.step p{font-size:14px;color:var(--muted);margin:0}
+.checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.check{display:flex;gap:12px;align-items:flex-start;background:var(--panel);border:1px solid var(--line);padding:14px;border-radius:14px}
+.check input{accent-color:var(--green);margin-top:5px;width:17px;height:17px}
+.check span{color:var(--muted)}
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:15px 18px;margin:9px 0}
+.faq summary{font-weight:700;cursor:pointer}
+.faq details p{color:var(--muted);margin-bottom:0}
+footer{padding:35px 0 50px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+.small{font-size:13px;color:var(--muted)}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:45px}.hero-art{min-height:280px}.grid{grid-template-columns:1fr}.guide-layout{grid-template-columns:1fr}.species-tabs{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.section-head{display:block}}
+@media(max-width:480px){nav{gap:10px;font-size:12px}.nav{align-items:flex-start}.logo{font-size:14px}.steps,.checklist{grid-template-columns:1fr}.species-tabs{grid-template-columns:1fr 1fr}.guide{padding:19px}}
+select{width:100%;max-width:420px;padding:13px 15px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:15px}
+.res-list{display:grid;gap:8px;margin:16px 0}
+.res{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:14px 16px;border-radius:14px;border:1px solid var(--line);background:var(--panel);border-left-width:4px}
+.res span{color:var(--muted)}.res.ok{border-left-color:var(--green2)}.res.lim{border-left-color:var(--gold)}.res.no{border-left-color:#d9826f}
+.grid4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:800px){.grid4{grid-template-columns:1fr 1fr}}@media(max-width:480px){.grid4{grid-template-columns:1fr}}
+
+/* Тихий рост — AI-консультант */
+.ai-launcher{position:fixed;right:22px;bottom:22px;z-index:1000;border:0;border-radius:999px;background:var(--green);color:#142018;padding:14px 18px;font-weight:800;box-shadow:0 10px 35px #0006;cursor:pointer}
+.ai-panel{position:fixed;right:22px;bottom:82px;z-index:1000;width:min(380px,calc(100vw - 28px));height:min(560px,calc(100dvh - 115px));display:none;flex-direction:column;background:var(--panel);border:1px solid var(--line);border-radius:20px;box-shadow:0 18px 60px #0008;overflow:hidden}
+.ai-panel.open{display:flex}
+.ai-head{display:flex;align-items:center;gap:10px;padding:15px;background:#202c24;border-bottom:1px solid var(--line)}
+.ai-head-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--green);color:#142018;font-size:20px}
+.ai-head-title{font-weight:800}.ai-head-sub{font-size:12px;color:var(--muted)}
+.ai-close{margin-left:auto;background:transparent;border:0;color:var(--text);font-size:23px;cursor:pointer}
+.ai-messages{flex:1;overflow:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+.ai-msg{max-width:90%;padding:10px 12px;border-radius:14px;font-size:14px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere}
+.ai-msg.bot{align-self:flex-start;background:#202c24;color:var(--text);border:1px solid var(--line)}
+.ai-msg.user{align-self:flex-end;background:#344438;color:var(--text)}
+.ai-quick{display:flex;gap:6px;flex-wrap:wrap;padding:0 12px 10px}
+.ai-quick button{background:transparent;color:var(--green);border:1px solid var(--line);border-radius:99px;padding:7px 9px;font-size:12px;cursor:pointer}
+.ai-form{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line)}
+.ai-input{min-width:0;flex:1;resize:none;max-height:90px;background:#101713;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:11px;font:inherit;font-size:14px}
+.ai-voice{border:1px solid var(--line);border-radius:12px;background:var(--panel2);color:var(--text);padding:0 10px;cursor:pointer;font-size:16px}.ai-voice:disabled{opacity:.45;cursor:not-allowed}.ai-send{border:0;border-radius:12px;background:var(--green);color:#142018;padding:0 14px;font-weight:800;cursor:pointer}
+.ai-send:disabled{opacity:.55;cursor:wait}
+.ai-note{font-size:10px;color:var(--muted);padding:0 13px 10px}
+@media(max-width:480px){.ai-launcher{right:14px;bottom:14px}.ai-panel{right:14px;bottom:72px;width:calc(100vw - 28px);height:min(560px,calc(100dvh - 90px))}}
+
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="logo"><span class="logo-mark">✳</span><span>ТИХИЙ РОСТ</span></div>
+    <nav><a href="#start">Первый день</a><a href="#guides">Растения</a><a href="#region">Регион</a><a href="#plant">Посадка</a><a href="#calendar">Календарь</a><a href="#faq">Проблемы</a></nav>
+  </div>
+</header>
+<main>
+<section class="wrap hero">
+  <div>
+    <div class="eyebrow">Памятка для вашего саженца</div>
+    <h1>Пусть растение<br><span>приживётся спокойно.</span></h1>
+    <p class="lead">Понятная инструкция после получения посылки: как распаковать, адаптировать и посадить молодые дубы, кипарисы и лиственницы без лишнего стресса.</p>
+    <div class="actions"><a class="btn primary" href="#start">Начать с первых шагов ↘</a><a class="btn secondary" href="#guides">Выбрать растение</a></div>
+    <p class="small">Подходит для саженцев около 15 см. Учитывайте вид растения, состояние корней, климат и рекомендации продавца.</p>
+  </div>
+  <div class="hero-art" aria-label="Иллюстрация молодого растения"><div class="art-label">Растём в своём темпе</div><div class="plant"><div class="stem"></div><i class="leaf l1"></i><i class="leaf l2"></i><i class="leaf l3"></i><i class="leaf l4"></i><i class="leaf l5"></i></div></div>
+</section>
+
+<section class="section" id="start" style="background:#141d17">
+<div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Самое важное</div><h2>Что делать сразу после получения</h2><p class="sub">Не торопитесь пересаживать растение в первый же час. Сначала проверьте его состояние и помогите ему постепенно привыкнуть к новым условиям.</p></div></div>
+  <div class="steps">
+    <article class="step"><h3>Откройте аккуратно</h3><p>Снимите упаковку, не тяните за стебель и не расправляйте корни силой. Сфотографируйте повреждения, если они есть.</p></article>
+    <article class="step"><h3>Проверьте влагу</h3><p>Субстрат должен быть слегка влажным, но не заболоченным. Если он сухой — понемногу полейте водой комнатной температуры.</p></article>
+    <article class="step"><h3>Дайте адаптироваться</h3><p>На первые 2–3 дня поставьте в светлое место без палящего солнца и сильного ветра. Не ставьте рядом с батареей.</p></article>
+    <article class="step"><h3>Не перекармливайте</h3><p>Не вносите удобрения сразу после доставки. Сначала дождитесь, когда растение восстановит нормальный вид и начнёт расти.</p></article>
+  </div>
+  <div class="notice"><strong>Важно:</strong> если корни упакованы открыто и подсыхают, не оставляйте их на воздухе. Для саженца с целым земляным комом обычно безопаснее сохранить ком и перевалить растение, не разрушая его.</div>
+</div>
+</section>
+
+<section class="section wrap" id="guides">
+  <div class="section-head"><div><div class="eyebrow">Выберите саженец</div><h2>Инструкция по видам</h2><p class="sub">Нажмите на название — рекомендации изменятся. У разных видов отличаются требования к зимовке и месту посадки.</p></div></div>
+  <div class="guide-layout">
+    <div class="species-tabs" role="tablist" aria-label="Виды растений">
+      <button class="tab active" data-species="red" role="tab" aria-selected="true">Дуб красный</button>
+      <button class="tab" data-species="english" role="tab" aria-selected="false">Дуб черешчатый</button>
+      <button class="tab" data-species="stone" role="tab" aria-selected="false">Дуб каменный</button>
+      <button class="tab" data-species="cypress" role="tab" aria-selected="false">Кипарис</button>
+      <button class="tab" data-species="larch" role="tab" aria-selected="false">Лиственница</button>
+    </div>
+    <article class="guide" id="guide-content" aria-live="polite">
+      <span class="pill">Листопадный</span><span class="pill">Солнце / полутень</span>
+      <h3>Дуб красный</h3>
+      <p class="intro">Молодой саженец лучше пересаживать бережно, не тревожа корни без необходимости.</p>
+      <h4>Место и почва</h4><ul><li>Выберите открытое место с солнцем и почвой, где не застаивается вода.</li><li>Оставьте запас места: взрослое дерево крупное.</li></ul>
+      <h4>Когда высаживать</h4><ul><li>В открытый грунт — весной после оттаивания почвы или осенью, когда жара уже прошла, но до устойчивых морозов остаётся время на укоренение.</li><li>Если саженец недавно приехал и выглядит ослабленным, сначала адаптируйте его в контейнере.</li></ul>
+      <h4>Первые недели</h4><ul><li>Поддерживайте почву умеренно влажной, не превращая её в болото.</li><li>Мульчируйте поверхность, оставив свободное пространство вокруг стволика.</li></ul>
+    </article>
+  </div>
+  <p class="small" style="margin-top:14px">Примечание: «дуб черешчатый» — правильное название распространённого европейского дуба (Quercus robur). «Дуб каменный» обычно означает Quercus ilex — вечнозелёный средиземноморский вид, который не подходит для суровой зимы без специальных условий.</p>
+</section>
+
+<section class="section wrap" id="region">
+  <div class="section-head"><div><div class="eyebrow">Ваш климат</div><h2>Подойдёт ли растение вашему региону</h2><p class="sub">Выберите, какие самые сильные морозы бывают у вас зимой.</p></div></div>
+  <select id="frost" aria-label="Минимальная зимняя температура"><option value="">Выберите температуру…</option><option value="-35">Ниже −30 °C</option><option value="-30">От −30 до −20 °C</option><option value="-20">От −20 до −10 °C</option><option value="-10">От −10 до −5 °C</option><option value="-5">Выше −5 °C</option></select>
+  <div id="frost-res" class="res-list" aria-live="polite"></div>
+  <p class="small">Ориентиры для взрослых растений. Молодые саженцы чувствительнее; снежный покров и защита от ветра помогают. Для кипариса важен точный вид — спросите у продавца латинское название.</p>
+</section>
+
+<section class="section wrap" id="plant">
+  <div class="section-head"><div><div class="eyebrow">Пошагово</div><h2>Как посадить в грунт</h2><p class="sub">Когда растение освоилось и погода подходит.</p></div></div>
+  <div class="steps">
+    <article class="step"><h3>Яма</h3><p>Выкопайте яму вдвое шире кома и чуть глубже его. Стенки разрыхлите, на дно не кладите свежий навоз.</p></article>
+    <article class="step"><h3>Глубина</h3><p>Корневая шейка (место перехода ствола в корни) остаётся вровень с землёй или чуть выше. Не заглубляйте.</p></article>
+    <article class="step"><h3>Полив</h3><p>Засыпьте землёй, слегка уплотните и обильно полейте. Через несколько дней проверьте, не осела ли земля.</p></article>
+    <article class="step"><h3>Мульча</h3><p>Слой 5–7 см коры или щепы. Отступите от ствола пару сантиметров, чтобы он не подопревал.</p></article>
+  </div>
+</section>
+
+<section class="section" id="season" style="background:#141d17">
+<div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Сезонность</div><h2>Когда сажать саженец около 15 см</h2><p class="sub">Ориентируйтесь не только на календарь: важны местный климат, промерзание почвы и то, рос ли саженец до покупки в помещении или на улице.</p></div></div>
+  <div class="grid">
+    <article class="card"><div class="icon">🌱</div><h3>Весна</h3><p>Часто самый надёжный вариант для маленьких саженцев в регионах с холодной зимой. Высаживайте после оттаивания почвы, когда нет сильных морозов.</p></article>
+    <article class="card"><div class="icon">☀️</div><h3>Лето</h3><p>Посадка возможна, но жара и сухой ветер повышают риск пересыхания. Выбирайте пасмурный день, защищайте от полуденного солнца и следите за влажностью.</p></article>
+    <article class="card"><div class="icon">🍂</div><h3>Осень</h3><p>Для зимостойких дубов и лиственницы возможна ранняя осенняя посадка, если до промерзания почвы достаточно времени. Теплолюбивый кипарис и каменный дуб требуют особой осторожности.</p></article>
+  </div>
+  <div class="notice"><strong>Если сейчас не сезон:</strong> не высаживайте теплолюбивый вид в промёрзшую землю. Сохраните растение в подходящем контейнере и прохладных, светлых условиях с учётом его вида. Не держите хвойные в тёплой тёмной комнате.</div>
+</div>
+</section>
+
+<section class="section wrap" id="calendar">
+  <div class="section-head"><div><div class="eyebrow">Весь год</div><h2>Календарь ухода</h2><p class="sub">Общий порядок; сроки сдвигайте под свой климат.</p></div></div>
+  <div class="grid grid4">
+    <article class="card"><div class="icon">🌱</div><h3>Весна</h3><p>Осмотр после зимы, снять укрытие, когда уйдут заморозки. Полив при сухой погоде, обновить мульчу.</p></article>
+    <article class="card"><div class="icon">☀️</div><h3>Лето</h3><p>Глубокий полив раз в неделю-две, чаще в жару. Не подкармливайте в зной; следите за пересыханием.</p></article>
+    <article class="card"><div class="icon">🍂</div><h3>Осень</h3><p>Полив постепенно сокращайте. Мульча 5–7 см. Лиственница сбрасывает хвою — это нормально.</p></article>
+    <article class="card"><div class="icon">❄️</div><h3>Зима</h3><p>Перед морозами один влагозарядный полив. Теплолюбивые виды укройте или держите в контейнере в прохладе.</p></article>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="section-head"><div><div class="eyebrow">В день получения</div><h2>Чек-лист первого дня</h2><p class="sub">Отметьте пункты по мере выполнения. Отметки работают в текущем открытом окне сайта.</p></div></div>
+  <div class="checklist">
+    <label class="check"><input type="checkbox"><span>Земляной ком влажный на ощупь: не сухой и не хлюпает.</span></label>
+    <label class="check"><input type="checkbox"><span>Корни светлые, без гнилостного запаха.</span></label>
+    <label class="check"><input type="checkbox"><span>Поставил в светлое место без прямого солнца, сквозняка и батареи.</span></label>
+    <label class="check"><input type="checkbox"><span>Не пересаживаю и не удобряю первые 2–3 дня.</span></label>
+    <label class="check"><input type="checkbox"><span>Я аккуратно снял упаковку и осмотрел стебель и листья.</span></label>
+    <label class="check"><input type="checkbox"><span>Корни и земляной ком не пересушены.</span></label>
+    <label class="check"><input type="checkbox"><span>Растение постепенно привыкает к освещению и температуре.</span></label>
+    <label class="check"><input type="checkbox"><span>Я выбрал место с учётом конкретного вида и зимнего климата.</span></label>
+    <label class="check"><input type="checkbox"><span>В посадочной зоне не застаивается вода.</span></label>
+    <label class="check"><input type="checkbox"><span>Я не добавляю удобрения и стимуляторы без необходимости.</span></label>
+  </div>
+</section>
+
+<section class="section wrap faq" id="faq">
+  <div class="section-head"><div><div class="eyebrow">Частые вопросы</div><h2>Что делать, если…</h2></div></div>
+  <details><summary>…листья пожелтели</summary><p>Чаще всего виноваты переувлажнение или пересушка. Проверьте ком на глубине 2–3 см: сухой — полейте, мокрый — не поливайте до подсыхания и обеспечьте дренаж. Осенью жёлтые листья — норма. Не подкармливайте.</p></details>
+  <details><summary>…хвоя осыпается</summary><p>У лиственницы осенью это нормально. В другое время смотрите на влажность и сквозняки, не обрезайте ветки и ждите: живые побеги с зелёной хвоей — хороший признак.</p></details>
+  <details><summary>…саженец выглядит вялым</summary><p>Уберите от солнца и ветра, проверьте влагу в коме. Слегка поцарапайте кору на тонкой веточке: зелёный слой под ней означает, что растение живо. Если корни гниют или ствол сухой и ломкий, свяжитесь с продавцом и приложите фото.</p></details>
+  <details><summary>Листья поникли после распаковки — что делать?</summary><p>Проверьте влажность субстрата и уберите растение от прямого солнца и ветра. Не заливайте его «на всякий случай». Если стебель повреждён, корни пахнут гнилью или состояние быстро ухудшается, обратитесь к продавцу или специалисту по растениям с фотографиями.</p></details>
+  <details><summary>Нужно ли сразу пересаживать из транспортного горшка?</summary><p>Не обязательно. Если субстрат и горшок целы, растение может сначала адаптироваться. Пересадка нужна, если корни пересохли, субстрат испорчен, горшок повреждён или он явно слишком мал. При перевалке сохраняйте земляной ком.</p></details>
+  <details><summary>Можно ли сразу поставить на яркое солнце?</summary><p>Лучше нет, особенно если растение ехало в коробке или росло в помещении. Увеличивайте освещение постепенно в течение нескольких дней.</p></details>
+  <details><summary>Как зимовать кипарис и каменный дуб?</summary><p>Это зависит от точного вида и минимальных зимних температур в вашем регионе. Многие кипарисы и каменный дуб значительно менее морозостойки, чем красный или черешчатый дуб и лиственница. До высадки уточните ботаническое название и местную зимостойкость; не обещайте универсальную морозостойкость для всех кипарисов.</p></details>
+</section>
+</main>
+<footer><div class="wrap"><strong>ТИХИЙ РОСТ</strong><p>Бережные инструкции для молодых растений.</p><p>Материал носит общий справочный характер. Условия выращивания зависят от точного вида, происхождения саженца, региона и состояния корней. Перед посадкой уточняйте ботаническое название и зимостойкость.</p><p>© 2026 · Демоверсия сайта для покупателей саженцев</p></div></footer>
+<script>
+const guides={
+red:{pills:["Листопадный","Солнце / полутень"],title:"Дуб красный",intro:"Молодой саженец лучше пересаживать бережно, не тревожа корни без необходимости.",sections:[["Место и почва",["Выберите открытое место с солнцем и почвой, где не застаивается вода.","Оставьте запас места: взрослое дерево крупное."]],["Когда высаживать",["В открытый грунт — весной после оттаивания почвы или осенью, когда жара уже прошла, но до устойчивых морозов остаётся время на укоренение.","Если саженец недавно приехал и выглядит ослабленным, сначала адаптируйте его в контейнере."]],["Первые недели",["Поддерживайте почву умеренно влажной, не превращая её в болото.","Мульчируйте поверхность, оставив свободное пространство вокруг стволика."]]]},
+english:{pills:["Листопадный","Зимостойкий"],title:"Дуб черешчатый",intro:"Один из распространённых европейских дубов. Молодые растения ценят аккуратное обращение с корнями и стабильную влажность.",sections:[["Место и почва",["Солнечное место или лёгкая полутень; почва плодородная, без длительного застоя воды.","Учитывайте будущий размер дерева и не сажайте близко к фундаменту и коммуникациям."]],["Когда высаживать",["Весна после оттаивания земли — удобный выбор для маленького саженца в холодном климате.","Осенью сажайте только заранее, чтобы корни успели начать укореняться до устойчивого промерзания почвы."]],["Первые недели",["Поливайте глубоко, но не слишком часто: ориентируйтесь на влажность земли.","Защитите от вытаптывания и повреждений; не вносите концентрированные удобрения сразу после посадки."]]]},
+stone:{pills:["Вечнозелёный","Теплолюбивый"],title:"Дуб каменный (Quercus ilex)",intro:"Средиземноморский вечнозелёный дуб. Его зимостойкость ограничена, поэтому регион выращивания особенно важен.",sections:[["Место и почва",["Нужно светлое место и хорошо дренированная почва.","Не допускайте постоянной сырости у корней."]],["Когда высаживать",["В холодных регионах безопаснее выращивать в контейнере и защищать от морозов, пока не подтверждена местная зимостойкость.","В мягком климате высаживают в период без жары и сильных морозов, после постепенного привыкания к улице."]],["Первые недели",["Избегайте резкой смены условий и палящего солнца сразу после доставки.","Уточните минимальную зимнюю температуру для вашего сорта и региона: универсальной гарантии морозостойкости нет."]]]},
+cypress:{pills:["Хвойный","Зимостойкость зависит от вида"],title:"Кипарис",intro:"Название «кипарис» охватывает разные виды с неодинаковой морозостойкостью. Точный вид важнее общего названия.",sections:[["Место и почва",["Обычно требуется светлое место и дренированная почва; особенности зависят от вида.","Не допускайте пересыхания корневого кома, но не держите корни постоянно в воде."]],["Когда высаживать",["Зимостойкие виды можно высаживать в подходящий местный сезон; теплолюбивые виды в холодных регионах лучше держать в контейнере с зимней защитой.","Перед посадкой выясните латинское название растения и минимальную температуру, которую оно переносит."]],["Первые недели",["Приучайте к солнцу постепенно, защищайте от сильного ветра.","Не обрезайте здоровую верхушку и не подкармливайте сразу после доставки."]]]},
+larch:{pills:["Хвойное листопадное","Нужен свет"],title:"Лиственница",intro:"Несмотря на то что это хвойное дерево, осенью лиственница сбрасывает хвою — это нормальная особенность.",sections:[["Место и почва",["Предпочитает открытое солнечное место; большинству видов нужно достаточно пространства.","Почва должна удерживать некоторую влагу, но не быть постоянно заболоченной."]],["Когда высаживать",["Обычно подходит весна; осенняя посадка возможна в подходящем климате до промерзания земли.","Если саженец в горшке, переваливайте с сохранением земляного кома и не заглубляйте корневую шейку."]],["Первые недели",["Поливайте по состоянию почвы, особенно в сухую погоду.","Пожелтение и опадение хвои осенью может быть естественным; оценивайте сезон и состояние побегов."]]]}
+};
+const content=document.getElementById('guide-content');
+function render(key){
+ const g=guides[key];
+ content.innerHTML=g.pills.map(p=>`<span class="pill">${p}</span>`).join('')+`<h3>${g.title}</h3><p class="intro">${g.intro}</p>`+g.sections.map(s=>`<h4>${s[0]}</h4><ul>${s[1].map(x=>`<li>${x}</li>`).join('')}</ul>`).join('');
+ document.querySelectorAll('.tab').forEach(b=>{const on=b.dataset.species===key;b.classList.toggle('active',on);b.setAttribute('aria-selected',String(on));});
+}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>render(b.dataset.species)));
+const sp=[["Дуб красный",-30],["Дуб черешчатый",-30],["Дуб каменный",-10],["Кипарис (уточните вид)",-15],["Лиственница",-35,-8]];
+document.getElementById('frost').addEventListener('change',e=>{
+ const out=document.getElementById('frost-res');if(!e.target.value){out.innerHTML='';return}
+ const t=+e.target.value;
+ out.innerHTML=sp.map(([n,min,warm])=>{
+  let c,m;
+  if(t<min-5||t<min&&min>-20&&t<min-5){c='no';m='Только в контейнере в прохладном светлом помещении.'}
+  else if(t<min){c='lim';m='На грани: контейнер или надёжное укрытие на зиму.'}
+  else if(warm&&t>warm){c='lim';m='Мягкая зима: возможно, не хватит зимнего покоя.'}
+  else{c='ok';m='Подходит для открытого грунта.'}
+  return `<div class="res ${c}"><b>${n}</b><span>${m}</span></div>`}).join('');
+});
+</script>
+
+<button class="ai-launcher" id="ai-launcher" type="button" aria-expanded="false">🌱 Задать вопрос</button>
+<section class="ai-panel" id="ai-panel" aria-label="ИИ-консультант Тихий рост">
+  <div class="ai-head">
+    <div class="ai-head-icon">✳</div>
+    <div><div class="ai-head-title">Помощник «Тихий рост»</div><div class="ai-head-sub">Короткие советы по саженцам</div></div>
+    <button class="ai-close" id="ai-close" type="button" aria-label="Закрыть чат">×</button>
+  </div>
+  <div class="ai-messages" id="ai-messages" aria-live="polite">
+    <div class="ai-msg bot">Здравствуйте! 🌱 Помогу с уходом за дубом, кипарисом или лиственницей. Что случилось с вашим саженцем?</div>
+  </div>
+  <div class="ai-quick" id="ai-quick">
+    <button type="button" data-q="На саженце появились белые пятна. Что проверить?">Белые пятна</button>
+    <button type="button" data-q="Как подготовить саженец к зиме?">Зимовка</button>
+    <button type="button" data-q="Красный дуб со временем краснеет?">Красный дуб</button>
+  </div>
+  <form class="ai-form" id="ai-form">
+    <textarea class="ai-input" id="ai-input" rows="1" maxlength="1200" placeholder="Напишите вопрос…" required></textarea>
+    <button class="ai-voice" id="ai-mic" type="button" aria-label="Голосовой ввод" title="Голосовой ввод">🎙</button>
+    <button class="ai-voice" id="ai-speak" type="button" aria-pressed="true" title="Озвучивание ответов включено">🔊</button>
+    <button class="ai-send" id="ai-send" type="submit">➤</button>
+  </form>
+  <div class="ai-note">Если вопрос о заказе, возврате или повреждении товара, напишите продавцу в чате Ozon.</div>
+</section>
+<script>
+(function(){
+  const launch=document.getElementById('ai-launcher'), panel=document.getElementById('ai-panel');
+  const close=document.getElementById('ai-close'), form=document.getElementById('ai-form');
+  const input=document.getElementById('ai-input'), messages=document.getElementById('ai-messages');
+  const send=document.getElementById('ai-send'), quick=document.getElementById('ai-quick');
+  const mic=document.getElementById('ai-mic'), speakButton=document.getElementById('ai-speak');
+  let speechEnabled=true, recognition=null;
+  const SpeechRecognition=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(SpeechRecognition){
+    recognition=new SpeechRecognition(); recognition.lang='ru-RU'; recognition.interimResults=false; recognition.maxAlternatives=1;
+    recognition.addEventListener('result',e=>{const spoken=e.results&&e.results[0]&&e.results[0][0]&&e.results[0][0].transcript;if(spoken){input.value=(input.value+' '+spoken).trim();input.focus();}});
+    recognition.addEventListener('error',()=>{mic.title='Не удалось распознать речь. Проверьте разрешение микрофона.';});
+    recognition.addEventListener('end',()=>{mic.disabled=false;});
+    mic.addEventListener('click',()=>{try{mic.disabled=true;recognition.start();}catch(_){mic.disabled=false;mic.title='Голосовой ввод сейчас недоступен.';}});
+  }else{mic.disabled=true;mic.title='Этот браузер не поддерживает голосовой ввод. Используйте текст.';}
+  if(!('speechSynthesis' in window)){speakButton.disabled=true;speakButton.title='Озвучивание не поддерживается этим браузером.';speechEnabled=false;}
+  speakButton.addEventListener('click',()=>{speechEnabled=!speechEnabled;speakButton.textContent=speechEnabled?'🔊':'🔇';speakButton.setAttribute('aria-pressed',String(speechEnabled));speakButton.title=speechEnabled?'Озвучивание ответов включено':'Озвучивание ответов выключено';if(!speechEnabled&&'speechSynthesis' in window)window.speechSynthesis.cancel();});
+  function speak(text){if(!speechEnabled||!('speechSynthesis' in window))return;window.speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(text);utterance.lang='ru-RU';window.speechSynthesis.speak(utterance);}
+  const history=[];
+  function toggle(open){panel.classList.toggle('open',open);launch.setAttribute('aria-expanded',String(open));if(open)input.focus();}
+  launch.addEventListener('click',()=>toggle(!panel.classList.contains('open')));
+  close.addEventListener('click',()=>toggle(false));
+  function add(text,who){const el=document.createElement('div');el.className='ai-msg '+who;el.textContent=text;messages.appendChild(el);messages.scrollTop=messages.scrollHeight;return el;}
+  async function ask(text){
+    if(!text.trim()||send.disabled)return;
+    add(text,'user');history.push({role:'user',content:text});
+    input.value='';send.disabled=true;quick.style.display='none';
+    const waiting=add('Секунду, подбираю ответ…','bot');
+    try{
+      const res=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:history.slice(-10)})});
+      const data=await res.json();
+      if(!res.ok)throw new Error(data.error||'Не удалось получить ответ');
+      waiting.textContent=data.reply||'Не получилось сформировать ответ. Попробуйте ещё раз.';
+      history.push({role:'assistant',content:waiting.textContent}); speak(waiting.textContent);
+    }catch(e){
+      waiting.textContent=(e && e.message) ? e.message : 'Сейчас не получилось ответить автоматически. Попробуйте немного позже. Если вопрос касается заказа, возврата или повреждения товара, напишите продавцу в чате Ozon.';
+    }finally{send.disabled=false;messages.scrollTop=messages.scrollHeight;input.focus();}
+  }
+  form.addEventListener('submit',e=>{e.preventDefault();ask(input.value);});
+  input.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();form.requestSubmit();}});
+  quick.addEventListener('click',e=>{const b=e.target.closest('button[data-q]');if(b)ask(b.dataset.q);});
+})();
+</script>
+
+</body>
+</html>
